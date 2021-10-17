@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(100, 148, 237, 0.281);
+  width: 400px;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.formInput {
+  padding: 2px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.button {
+  margin-top: 30px;
+  width: 150px;
+  cursor: pointer;
+}
